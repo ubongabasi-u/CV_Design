@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    list-style: none;
+}
+body{
+    background: lightblue;
+    margin: 5em;
+}
+table, th, td {
+    border: 1px solid black;
+}
+@media only screen and (max-width: 768px) {
+    body {
+      width: 80%;
+      font-size: 14px;
+      
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    body{
+        width: 90%;
+        font-size: 20px;
+    }
+  } 
